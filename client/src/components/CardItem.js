@@ -23,7 +23,7 @@ export default function CardItem(props) {
                 </CardTitle>
                 <Row>
                     <Col>
-                        <a href={liveLink} target="_blank">
+                        <a href={liveLink} target="_blank" rel="noopener noreferrer">
                             <CardImg className="card-img" width="100%" src={image} />
                         </a>
                     </Col>
@@ -34,7 +34,7 @@ export default function CardItem(props) {
                 <Row>
                     <Col>
                         <div className="float-right mt-2 mr-2">
-                            <a href={liveLink} target="_blank" className="text-dark">
+                            <a href={liveLink} target="_blank" className="text-dark" rel="noopener noreferrer">
                                 <i className="fas fa-external-link-alt fa-2x " />
                             </a>
                         </div>
@@ -79,7 +79,7 @@ export default function CardItem(props) {
                         </Col>
                         <Col>
                             <div className="float-right mt-2 mr-2">
-                                <a href={liveLink} target="_blank" className="text-dark">
+                                <a href={liveLink} target="_blank" className="text-dark" rel="noopener noreferrer">
                                     <i className="fas fa-external-link-alt fa-2x " />
                                 </a>
                             </div>
