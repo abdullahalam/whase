@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+import { Provider } from "./context/context";
+import "./css/App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// Imported Components
+import Navbar from "./components/layout/Navigation";
+import Header from "./components/layout/Header";
+import CardList from "./components/CardList";
+import Edit from "./components/modal/EditModal";
+import Particle from "./components/layout/Particle";
+
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <React.Fragment>
+          <React.Fragment>
+            <Provider>
+              <Particle />
+              <Navbar />
+              <Header />
+              <Route path="/" component={CardList} exact />
+              <Route path="/edit/:id" component={Edit} />
+            </Provider>
+          </React.Fragment>
+        </React.Fragment>
+      </BrowserRouter>
+    );
+  }
 }
 
 export default App;
