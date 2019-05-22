@@ -1,0 +1,98 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000;
+  font-family: Futura;
+}
+
+/* Header Section  */
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 2em;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.Navlink {
+  color: black;
+}
+
+.Navlink:hover {
+  color: black;
+}
+
+/* Card Section  */
+.card {
+  width: 23.5em;
+  border: none;
+  background-color: none;
+}
+
+.title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.fa-edit {
+  color: #3498db;
+}
+
+p.card-text {
+  color: #333;
+}
+
+span {
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn a:hover {
+  color: #000;
+}
+
+.edit {
+  position: relative;
+}
+
+.anchor_key {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+
+/* Login Modal  */
+.fa-angry {
+  font-size: 3em;
+}
+
+.error {
+  cursor: pointer;
+}
+
+.fa-times {
+  font-size: 0.8em;
+}
+
+.fa-times:hover {
+  color: black !important;
+}
+
+/* Footer Section  */
+.tool-icon {
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+  position: relative;
+}
