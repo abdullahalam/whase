@@ -56,7 +56,7 @@ export default class Navigation extends Component {
                         href={"https://github.com/abdullahalam/whase/pulls"}
                         target="_blank"
                       >
-                        <i className="icon fab fa-github fa-2x" />
+                        <i className="icon fab fa-github fa-2x icon-navigation" />
                       </NavLink>
                     </NavItem>
                   </Nav>
@@ -75,7 +75,7 @@ export default class Navigation extends Component {
                     <NavItem>
                       <NavLink className="Navlink">
                         <span onClick={this.toggle}>
-                          <i className="icon fas fa-folder-plus  fa-2x" />
+                          <i className="icon fas fa-folder-plus  fa-2x icon-navigation" />
                         </span>
                       </NavLink>
                     </NavItem>
@@ -85,7 +85,7 @@ export default class Navigation extends Component {
                         href={"https://github.com/abdullahalam/whase/pulls"}
                         target="_blank"
                       >
-                        <i className="icon fab fa-github fa-2x" />
+                        <i className="icon fab fa-github fa-2x icon-navigation" />
                       </NavLink>
                     </NavItem>
                   </Nav>
