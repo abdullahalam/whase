@@ -28,6 +28,10 @@ hr {
   color: black;
 }
 
+.paragraph {
+  margin: 15px; 
+}
+
 /* Card Section  */
 .card {
   width: 23.5em;
@@ -95,4 +99,5 @@ span {
   margin: 0.5em;
   cursor: pointer;
   position: relative;
+  color: white; 
 }
