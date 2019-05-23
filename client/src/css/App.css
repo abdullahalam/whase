@@ -21,11 +21,29 @@ hr {
 }
 
 .Navlink {
-  color: black;
+  color: #fff; 
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 
 .Navlink:hover {
-  color: black;
+  color: rgba(172, 172, 172);
+}
+
+.paragraph {
+  margin: 15px; 
+}
+
+.navbar {
+  background: #343a40; 
+}
+
+.icon-navigation {
+  color: #fff;
+}
+
+.icon-navigation:hover {
+  color: rgba(172, 172, 172);
 }
 
 /* Card Section  */
@@ -95,4 +113,9 @@ span {
   margin: 0.5em;
   cursor: pointer;
   position: relative;
+  color: white; 
+}
+
+.tool-icon:hover {
+  color: rgba(172, 172, 172)
 }
