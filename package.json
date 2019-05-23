@@ -24,6 +24,7 @@
     "client": "file:client",
     "concurrently": "^3.5.1",
     "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
     "express": "^4.16.2",
     "mongoose": "^5.4.4",
     "path": "^0.12.7"
