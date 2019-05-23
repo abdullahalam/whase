@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // DB Config
-const db = require("./config/keys").mongoURI;
+const db = process.env.MONGODB_URI || require("./config/keys").mongoURI;
 
 // Connect to Mongo
 mongoose
