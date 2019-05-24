@@ -53,12 +53,23 @@ export default class Navigation extends Component {
                     <NavItem>
                       <NavLink
                         className="Navlink"
-                        href={"https://github.com/abdullahalam/whase/pulls"}
+                        href={"https://github.com/abdullahalam/whase"}
                         target="_blank"
                       >
                         <i className="icon fab fa-github fa-2x icon-navigation" />
                       </NavLink>
                     </NavItem>
+
+                    <NavItem>
+                      <NavLink className="Navlink"
+                        href={"https://github.com/abdullahalam/whase/pulls"}
+                        target="_blank"
+                      > 
+                        <i className="icon fas fa-code fa-2x icon-navigation" />
+                      </NavLink>
+                    </NavItem>
+
+
                   </Nav>
                 </Navbar>
               </React.Fragment>
@@ -82,12 +93,24 @@ export default class Navigation extends Component {
                     <NavItem>
                       <NavLink
                         className="Navlink"
-                        href={"https://github.com/abdullahalam/whase/pulls"}
+                        href={"https://github.com/abdullahalam/whase"}
                         target="_blank"
                       >
                         <i className="icon fab fa-github fa-2x icon-navigation" />
                       </NavLink>
                     </NavItem>
+
+
+                    <NavItem>
+                      <NavLink className="Navlink"
+                        href={"https://github.com/abdullahalam/whase/pulls"}
+                        target="_blank"
+                      >
+                        <i className="icon fas fa-code fa-2x icon-navigation" />
+                      </NavLink>
+                    </NavItem>
+
+
                   </Nav>
                 </Navbar>
                 <AddModal
